@@ -1,0 +1,58 @@
+.boiteRetour{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media(max-width:530px){
+    .boiteRetour{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:700px ) and (min-width:530px) {
+    .boiteRetour{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.boiteBoucle{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 25px;
+}
+
+.button-60 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  display: inline-flex;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #4a4a4a;
+  height: 2.3em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+}
+
+.button-60:hover {
+  border: 1px solid;
+  border-color: #92ff60;
+  color: #15a123;
+  font-weight: bold;
+}
+
+.button-60:focus:not(:active) {
+  box-shadow: rgba(141, 255, 96, 0.25) 0 0 0 .125em;
+}
+
+.heureCommande{
+    text-align: center;
+    color: black;
+    font-family: monospace;
+}
+.commande{
+    color: black;
+}
